@@ -1,0 +1,21 @@
+@use '../mixins' as *;
+
+.section-text-image {
+  .two-column-info-block {
+    &__video, &__image {
+      border-radius: 0;
+
+      figure, video {
+        border-radius: 0;
+      }
+    }
+
+    &__image {
+      @include mqmax($bp-md) {
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+    }
+  }
+}

@@ -20,7 +20,7 @@
   &__title {
     margin-bottom: 0;
     @include mqmax($bp-md) {
-      line-height: rem(26);
+      line-height: rem(80);
     }
     @include mqmin($bp-md) {
       margin-bottom: rem(10);

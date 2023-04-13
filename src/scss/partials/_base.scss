@@ -4,6 +4,10 @@ html {
   scroll-behavior: smooth;
 }
 
+#scrollTarget {
+  scroll-margin-top: 100px;
+}
+
 body {
   @include font-variant('light');
   color: var(--color-brand-text);

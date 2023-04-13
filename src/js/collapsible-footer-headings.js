@@ -1,6 +1,4 @@
 if (window.innerWidth < 768) {
-    console.log('mobile');
-
     var footerLink = document.getElementsByClassName("footer-block--menu__link");
     var i;
     
@@ -15,7 +13,4 @@ if (window.innerWidth < 768) {
         }
       });
     }
-
-} else {
-    console.log('desktop');
 }

@@ -133,6 +133,7 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: rem(32);
+    cursor: pointer;
     @include mqmin($bp-lg) {
       bottom: rem(50);
     }

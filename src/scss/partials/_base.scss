@@ -1,5 +1,9 @@
 @use '../mixins'as *;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @include font-variant('light');
   color: var(--color-brand-text);
